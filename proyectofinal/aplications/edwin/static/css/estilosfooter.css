@@ -1,0 +1,11 @@
+.color {
+    background: rgba(11, 64, 132, 0.822);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+
+   
+    bottom: 0;
+    width: 100%;
+  }

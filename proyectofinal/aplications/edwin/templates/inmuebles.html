@@ -1,0 +1,31 @@
+{% load static %}
+{% include 'navbar.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+
+ <!-- templates/tu_template.html -->
+
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/estiloform.css' %}">
+   
+    <div align='center'>
+        <h1 style="color: hsl(203, 83%, 38%)"> INGRESAR DATOS </h1>
+        </div>
+    
+    <form class="formulario-colorido" form method="post">
+        {% csrf_token %}{{form.as_p}}
+        <button type="submit" class="btn btn-primary">agregar datos</button>
+
+        <br><br>
+        <a href="{% url 'proyectoPrincipal' %}" class="btn btn-outline-primary">REGRESAR AL INICIO</a>
+</body>
+</html>
+{% include 'footer.html' %}

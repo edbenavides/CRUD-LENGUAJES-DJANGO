@@ -1,0 +1,20 @@
+/* static/css/styles.css */
+.formulario-colorido {
+    background-color: #f0f0f0; /* Cambia esto al color que desees */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+.campo-input {
+    margin-bottom: 10px;
+}
+
+.boton-enviar {
+    background-color: #4285f4; /* Cambia esto al color que desees */
+    color: #ffffff; /* Cambia esto al color que desees */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
